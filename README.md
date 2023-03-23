@@ -18,7 +18,7 @@ This Weather App is a React-based web application that allows users to search fo
 Follow the steps below to set up and run the project on your local machine.
 
 ### 1. Clone the repository
-- git clone https://github.com/yourusername/weather-app.git
+- git clone https://github.com/Akeel14/weather-app.git
 - cd weather-app
 
 ### 2. Install dependencies
