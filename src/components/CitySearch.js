@@ -37,7 +37,6 @@ const CitySearch = ({ setCity }) => {
   };
 
   const handleMenuClose = () => {
-    // Clear the input value when the menu is closed after making a selection
     if (inputValue) {
       setInputValue(null);
     }
@@ -53,8 +52,8 @@ const CitySearch = ({ setCity }) => {
       noOptionsMessage={() => "No cities found"}
       autoFocus
       styles={customStyles}
-      value={inputValue} // Bind the value to the state
-      onMenuClose={handleMenuClose} // Add the onMenuClose event
+      value={inputValue}
+      onMenuClose={handleMenuClose} 
 
     />
   );
